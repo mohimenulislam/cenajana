@@ -1,0 +1,29 @@
+.copyright_container {
+    width: 960px;
+    margin: 0 auto;
+}
+.copyright {
+    background-color: #f7f7f7;
+    overflow: hidden;
+    padding: 20px 0;
+    .copyright_left {
+        float: left;
+        p {
+            color: #373737;
+        }
+    }
+    .copyright_right {
+        float: right;
+        p {
+            display: inline-block;
+            margin-left: 60px;
+            color: #373737;
+            &:first-child {
+                margin-left: 0;
+            }
+            a  {
+                color: #ee6b42;
+            }
+        }
+    }
+}
